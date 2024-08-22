@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url(./Images/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Titillium Web"
+}
+
+body {
+    background-image: url(./Images/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.section-one-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.login-box {
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+.login-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    border: 3px solid white;
+    margin-left: 35px;
+    padding: 5px;
+}
+
+input[type=text] {
+    margin-right: 10px;
+    color: black;
+    border-collapse: collapse;
+}
+
+.login-button {
+    height: 45px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid white;;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.login-button:hover {
+    transform: scale(1.2);
+}
+
+input[type=placeholder]{
+    color: black;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+}
+
+.login-box a {
+    color: cyan;
+    text-decoration: none;
+}
