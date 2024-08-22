@@ -3,10 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    background-image: url(./Images/mountain.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     font-family: "Titillium Web"
 }
 
@@ -15,7 +11,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
 }
 
 
