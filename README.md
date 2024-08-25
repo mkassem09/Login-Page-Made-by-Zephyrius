@@ -1,2 +1,2 @@
-# Login-Page-Made-by-Zephyrius
+# Login-Page-Made-by-Zephyrus
 A simple login page with a wallpaper
